@@ -1,0 +1,130 @@
+
+.login-container {
+  display: grid;
+  grid-template-columns: 1.9fr 1.4fr;
+  column-gap: 20px;
+  padding: 20px 20px;
+}
+.login-grid {
+  padding: 10px 10px;
+}
+.login-logo {
+  margin-top: 70px;
+  margin-left: 150px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.pw-logo {
+  height: 220px;
+  z-index: 1;
+  box-shadow: 2px 2px 5px black;
+}
+
+.my-form {
+  background-color: #00000044;
+  color: rgb(255, 255, 255);
+  padding: 30px 50px;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.single-input {
+  width: 270px;
+  border: 1.5px solid #080808;
+  display: flex;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.single-input i {
+  padding: 8px 16px;
+  color: #db4e18;
+  height: 24px;
+}
+.single-input input {
+  border: 1px solid #000000;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  height: 37px;
+  background-color: #ffffff;
+}
+
+.button-login {
+  background-color: #e4451e;
+  opacity: 0.9;
+  width: 110%;
+  height: 43px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button-login:hover {
+  background-color: #ff4617;
+  cursor: pointer;
+}
+.forgot-pass {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* forgot pass 
+   */
+
+   
+  
+.forgot-container {
+  text-align: center;
+  margin-top: 70px;
+}
+.forgot-title {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: #43291E;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  
+}
+.form-title{
+  width: 65%;
+  text-align: left;
+  font-size: 13px;  
+  color: #000000b6;
+}
+.forgot-form{
+  background: rgba(255, 255, 255, 0.8);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  width: 80%;
+  height: 90%;
+  padding: 2px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: left; */
+    justify-content: center;
+    text-align: center;
+}
+.forgot-form button{
+  width: 66%;
+  height: 45px;
+  font-size: 19px;
+}
+.forgot-form single-input{
+  align-items: center;
+  border: none;
+}
+.recieved{
+  text-align: left;
+  margin-left: -180px;
+  margin-bottom: 5px;
+}

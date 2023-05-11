@@ -1,0 +1,20 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+.home-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-container-title{
+    margin-top: 150px;
+}
+.home-container-title h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.home-container-body{
+   display: flex;
+   justify-content: center;
+}

@@ -1,0 +1,80 @@
+.overviewTitle{
+    width: 12%;
+    font-weight: bold;
+    border: none;
+    z-index: 1;
+}
+.ticket-content{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 400px;
+    margin-top: 5px;
+    column-gap: 10px;
+}
+.ticket-body{
+    color: black;
+}
+.ticket-body h3{
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.ticket-body h3 small{
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+}
+.ticket-body p{
+    margin: 5px;
+    font-size: 16px;
+}
+.ticket-title{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ticket-description{
+    margin-top: 10px;
+    background-color: aliceblue;
+    height: 100px; 
+}
+.ticket-requestor{
+    background-color: aliceblue;
+    height: 30px;
+}
+.ticket-comment{
+    background-color: aliceblue;
+    height: 200px;
+}
+.ticket-comment h3{
+    height: 30px;
+}
+.ticket-comment p{
+    height: 150px;
+    background-color: rgb(211, 218, 218);
+}
+.ticket-phase{
+    background-color: aliceblue;
+    height: 100%;
+}
+.ticket-progress {
+    font-size: 20px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+.ticket-progress tr{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin:10px;
+    text-align:left;
+}
+.ticket-progress th{
+    height: 40px;
+    margin: 10px 0;
+    
+}

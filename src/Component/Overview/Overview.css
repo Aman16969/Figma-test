@@ -1,0 +1,106 @@
+.overview-container {
+    position: relative;
+    z-index: 1;
+    padding: 10px 10px;
+    color: #fff;
+    margin-top: 95px;
+    margin-left: 215px;
+    height: 79vh;
+    width: 80.5%;
+    display: grid;
+    grid-template-rows: 0.5fr 6fr;
+    
+  }
+.overviewTitle{
+    border: 1px solid black;
+    width: 46%;
+    margin-top: -20px;
+    text-align: center;
+    background-color: #fff;
+    height: 95%;
+    padding: 5px 0;
+    margin-left: 10px;
+    height: 45px;
+  }
+  .overviewTitle h2{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .overview-grid-row{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    padding: 5px;
+    height: 100%;
+  }
+  .overview-row{
+    background-color:rgba(0, 0, 0, 0.44);
+    width: 48%;
+  }
+  .overview-row-title{
+
+    padding: 5px 5px 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    background: rgb(207,78,40);
+background: linear-gradient(90deg, rgba(207,78,40,0.9922093837535014) 35%, rgba(207,93,40,0.7681197478991597) 74%);border: 1px solid rgb(220, 217, 217);
+  }
+  .overview-row-title h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    margin: 0 0 0 50px;
+  }
+  .overview-row-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    text-align: center;
+    justify-content: start;
+    background-color:#989898;
+    margin: 10px;
+  }
+  .row-body-content{
+    box-sizing: border-box;
+    margin-top: -20px;
+  }
+  .row-body-content hr {
+    border-color: rgba(255, 255, 255, 0);
+    
+  }
+  
+  .content-title{
+    background-color: #fff;
+    margin-bottom: -20px;
+  }
+  .content-title h2{
+    color: black;
+    height: 50px;
+    
+  }
+  .content-body{
+    text-align: left; 
+    background-color:#989898;
+    height: 280px;
+  }
+  .content-body h4{
+    margin: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  .content-body-ticket{
+    text-align: center; 
+    background-color:#e8e6e6;
+    height: 280px;
+  
+  }
+  .content-body-ticket h4{
+    margin: 23px;
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+    
+  }
